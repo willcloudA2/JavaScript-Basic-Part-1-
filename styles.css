@@ -1,0 +1,30 @@
+body {
+    padding: 20px;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.filter-btns {
+    margin-bottom: 20px;
+}
+
+.product-image {
+    height: 200px;
+    width: 50%;
+    margin: 10px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.product-card {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+

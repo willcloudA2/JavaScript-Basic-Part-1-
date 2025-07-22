@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+        <div class="container">
+            <h1 class="text-center mb-4">Cat Pet Supplies</h1>
+
+                <div class="text-center mb-4 filter-btns">
+                    <button type="button" class="btn btn-info me-2" onclick="filterProducts('all')">All</button>
+                    <button type="button" class="btn btn-outline-info me-2" onclick="filterProducts('food')">Food</button>
+                    <button type="button" class="btn btn-outline-info me-2" onclick="filterProducts('toys')">Toys</button>
+                    <button type="button" class="btn btn-outline-info" onclick="filterProducts('medicine')">Medicine</button>
+                </div>
+
+                <div id="product-list" class="row g-3">
+                    <!-- Product Will be inserted here -->
+                </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
